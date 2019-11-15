@@ -1,0 +1,56 @@
+{
+  "name": "plenta/contao-jobs-bundle",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Plenta",
+      "homepage": "https://plenta.io"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*",
+    "contao/manager-bundle": "4.4.*",
+    "codefog/contao-haste": "^4.18",
+    "terminal42/contao-tablelookupwizard": "^3.2",
+    "terminal42/dcawizard": "^2.4",
+    "terminal42/notification_center": "^1.4",
+    "terminal42/contao-fineuploader": "^2.0",
+    "terminal42/contao-easy_themes": "^2.2.6",
+    "menatwork/contao-multicolumnwizard": "^3.3",
+    "hofff/contao-calendarfield": "^3.0",
+    "jrgregory/m17-sticky-backend-footer": "^2.0",
+    "bugbuster/contao-botdetection-bundle": "^0.3",
+    "fritzmg/contao-file-access": "^2.1",
+    "phpseclib/phpseclib": "^2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0",
+    "contao/test-case": "^1.2",
+    "squizlabs/php_codesniffer": "^3.3",
+    "friendsofphp/php-cs-fixer": "^2.12",
+    "fzaninotto/faker": "^1.7",
+    "symfony/phpunit-bridge": "^4",
+    "sensiolabs/security-checker": "^6.0.2"
+  },
+  "conflict": {
+    "contao/core-bundle": "<4.4.1 || 4.4.21",
+    "symfony/finder": "4.0.7 || 3.4.7",
+    "symfony/symfony": "3.4.8",
+    "doctrine/dbal": "2.9.1"
+  },
+  "config": {
+    "component-dir": "assets"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
+    ],
+    "post-update-cmd": [
+      "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
+    ]
+  }
+}
