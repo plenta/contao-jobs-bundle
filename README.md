@@ -1,6 +1,6 @@
 # Contao Jobs Bundle
 Running a job board inside Contao has never been easier.  
-Visit the demo <a href="https://demo.jobboerse-software.de/" target="_blank">demo.jobboerse-software.de</a> or the project website <a href="https://jobboerse-software.de/" target="_blank">jobboerse-software.de</a>.
+Visit the demo [demo.jobboerse-software.de](https://demo.jobboerse-software.de/) or the project website [jobboerse-software.de](https://jobboerse-software.de/).
 
 ## Features
 **Job offers**
@@ -44,5 +44,5 @@ Extendable through templates, Contao hooks and Symfony events.
 ## Contact us
 If you have any questions, feel free to call or send us an email.  
 
-Email: <a href="mailto:team@jobboerse-software.de" target="_blank">team@jobboerse-software.de</a>  
-Phone: <a href="tel:+4933812692995" target="_blank">+49 (0) 3381 26 92 995</a>
+Email: [team@jobboerse-software.de](mailto:team@jobboerse-software.de)  
+Phone: [+49 (0) 3381 26 92 995](tel:+4933812692995)
