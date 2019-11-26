@@ -7,6 +7,15 @@
 - more import and export gateways
 - and much more
 
+## 4.2.0 (2019-06-03)
+### Added
+- Ajax powered company profile search.
+- Pagination for company profile lists.
+
+### Changed
+- Improved geocoding
+- Improved import
+
 ## 4.1.0 (2019-01-25)
 ### Added
 - **Paid listings**  
