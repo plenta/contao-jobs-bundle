@@ -1,5 +1,6 @@
 {
   "name": "plenta/contao-jobs-bundle",
+  "keywords": ["job", "jobposting", "google-for-jobs"],
   "type": "contao-bundle",
   "description": "Running a job board inside Contao has never been easier.",
   "license": "proprietary",
