@@ -2,7 +2,7 @@
   "name": "plenta/contao-jobs-bundle",
   "keywords": ["job", "jobposting", "google-for-jobs"],
   "type": "contao-bundle",
-  "description": "Running a job board inside Contao has never been easier.",
+  "description": "Plenta.Jobs – The All-in-One Job Board Solution for Contao",
   "license": "proprietary",
   "homepage": "https://jobboerse-software.de",
   "authors": [
@@ -12,7 +12,7 @@
     }
   ],
   "require": {
-    "php": "^7.2",
-    "contao/core-bundle": "^4.4"
+    "php": "^8.3",
+    "contao/core-bundle": "^4.13 || ^5.3"
   }
 }
